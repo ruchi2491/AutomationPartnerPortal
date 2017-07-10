@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PartnersPortal-Sample-WIN_7_chrome_57]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="57"/>
+  <test name="SampleTest(failed)">
+    <classes>
+      <class name="com.atmecs.partnerportal.testscript.FilterProjectTextScript">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="preInitialize"/>
+          <include name="preSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.FilterProjectTextScript -->
+      <class name="com.atmecs.partnerportal.testscript.ProjectDetailsTestScript">
+        <methods>
+          <include name="checkProjectStatus"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.ProjectDetailsTestScript -->
+      <class name="com.atmecs.partnerportal.testscript.ProjectSchedulingTestScript">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.ProjectSchedulingTestScript -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [PartnersPortal-Sample-WIN_7_chrome_57] -->

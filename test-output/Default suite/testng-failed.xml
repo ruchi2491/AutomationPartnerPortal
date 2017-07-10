@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="os" value="param-val-not-found"/>
+  <parameter name="osVersion" value="param-val-not-found"/>
+  <parameter name="browser" value="param-val-not-found"/>
+  <parameter name="browserVersion" value="param-val-not-found"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.atmecs.partnerportal.testscript.AddToCartAndVerifyTestScript">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="addToCartAndVerifyTest"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.AddToCartAndVerifyTestScript -->
+      <class name="com.atmecs.partnerportal.testscript.ProjectDetailsTestScript">
+        <methods>
+          <include name="addResources"/>
+          <include name="checkProjectStatus"/>
+          <include name="initializeBrowser"/>
+          <include name="customerContactTest"/>
+          <include name="updateResources"/>
+          <include name="updateContactTest"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.ProjectDetailsTestScript -->
+      <class name="com.atmecs.partnerportal.testscript.SampleTestScript">
+        <methods>
+          <include name="addToCartAndVerifyTest" invocation-numbers="0"/>
+          <include name="filterProjectsByStatusTest" invocation-numbers="0"/>
+          <include name="checkoutTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.SampleTestScript -->
+      <class name="com.atmecs.partnerportal.testscript.CategoryTestcases">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.CategoryTestcases -->
+      <class name="com.atmecs.partnerportal.testscript.OfferTestcases">
+        <methods>
+          <include name="deleteTest"/>
+          <include name="editTest" invocation-numbers="0"/>
+          <include name="createOffer" invocation-numbers="0 1 2 3 4"/>
+          <include name="close"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.OfferTestcases -->
+      <class name="com.atmecs.partnerportal.testscript.LoginTestScript">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="loginLogoutWithVerifyUserRoleTest"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.LoginTestScript -->
+      <class name="com.atmecs.partnerportal.testscript.CheckOutTestScript">
+        <methods>
+          <include name="checkoutTest"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.CheckOutTestScript -->
+      <class name="com.atmecs.partnerportal.testscript.FilterProjectTextScript">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="filterProjectsByStartAndEndDateTest"/>
+          <include name="preInitialize"/>
+          <include name="preSetup"/>
+          <include name="filterProjectsByStatusTest"/>
+          <include name="filterProjectsByNameTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.FilterProjectTextScript -->
+      <class name="com.atmecs.partnerportal.testscript.ProjectSchedulingTestScript">
+        <methods>
+          <include name="schedulingTest"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.ProjectSchedulingTestScript -->
+      <class name="com.atmecs.partnerportal.testscript.CheckoutNewTestScript">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="checkoutTest"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.CheckoutNewTestScript -->
+      <class name="com.atmecs.partnerportal.testsuite.SampleTestSuiteBase">
+        <methods>
+          <include name="preSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testsuite.SampleTestSuiteBase -->
+      <class name="com.atmecs.partnerportal.testscript.AddToCartTest">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="addToCartTest"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.AddToCartTest -->
+      <class name="com.atmecs.partnerportal.testscript.PartnerSurveyTest">
+        <methods>
+          <include name="close"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- com.atmecs.partnerportal.testscript.PartnerSurveyTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

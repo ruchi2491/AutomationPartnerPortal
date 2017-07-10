@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable PartnersPortal is: PartnersPortal]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable sample is: sample]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_7_chrome_57 is: WIN_7_chrome_57]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [PartnersPortal]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [sample]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: PartnersPortal-Sample-WIN_7_chrome_57]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PartnersPortal-Sample-WIN_7_chrome_57">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="57"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.atmecs.partnerportal.testscript.ProjectDetailsTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- PartnersPortal-Sample-WIN_7_chrome_57 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Entering username: tarunkumar.singh@atmecs.com]]>
+    </line>
+    <line>
+      <![CDATA[Entering password: *******]]>
+    </line>
+    <line>
+      <![CDATA[Trying to login]]>
+    </line>
+    <line>
+      <![CDATA[Trying to logout]]>
+    </line>
+    <line>
+      <![CDATA[logout Successful]]>
+    </line>
+  </reporter-output>
+  <suite name="PartnersPortal-Sample-WIN_7_chrome_57" duration-ms="20780" started-at="2017-07-10T11:35:25Z" finished-at="2017-07-10T11:35:46Z">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="20780" started-at="2017-07-10T11:35:25Z" finished-at="2017-07-10T11:35:46Z">
+      <class name="com.atmecs.partnerportal.testscript.ProjectDetailsTestScript">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.partnerportal.testscript.ProjectDetailsTestScript@5e020f5e]" name="initializeBrowser" is-config="true" duration-ms="8468" started-at="2017-07-10T17:05:25Z" finished-at="2017-07-10T17:05:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="checkProjectStatus()[pri:1, instance:com.atmecs.partnerportal.testscript.ProjectDetailsTestScript@5e020f5e]" name="checkProjectStatus" duration-ms="6460" started-at="2017-07-10T17:05:34Z" finished-at="2017-07-10T17:05:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering username: tarunkumar.singh@atmecs.com]]>
+            </line>
+            <line>
+              <![CDATA[Entering password: *******]]>
+            </line>
+            <line>
+              <![CDATA[Trying to login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkProjectStatus -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.partnerportal.testscript.ProjectDetailsTestScript@5e020f5e]" name="closeBrowser" is-config="true" duration-ms="5852" started-at="2017-07-10T17:05:40Z" finished-at="2017-07-10T17:05:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to logout]]>
+            </line>
+            <line>
+              <![CDATA[logout Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.atmecs.partnerportal.testscript.ProjectDetailsTestScript -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- PartnersPortal-Sample-WIN_7_chrome_57 -->
+</testng-results>
